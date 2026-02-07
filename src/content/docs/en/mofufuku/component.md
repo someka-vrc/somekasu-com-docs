@@ -10,6 +10,8 @@ sidebar:
 
 The Mofufuku component enables Mofufuku processing and preview when added to an avatar's mesh object.
 
+This feature was added in version 1.0.0 and is available only in the PRO edition.
+
 1. Display the avatar
    Add the target avatar to the Hierarchy. Dress the avatar, apply the fur material, and adjust blend shapes as needed.
    ![](../../mofufuku/images/editor-1.png)
