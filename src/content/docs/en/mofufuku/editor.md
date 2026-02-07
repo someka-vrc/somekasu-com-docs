@@ -9,7 +9,7 @@ sidebar:
    From the menu, select Window > Someka > Mofufuku to open the editor.  
 2. Display the Avatar  
    Add the target avatar to the hierarchy.  
-   Equip clothing, apply fur materials, adjust blend shapes.  
+   Dress the avatar, apply the fur material, and adjust blend shapes as needed.  
    ![](../../mofufuku/images/editor-1.png)  
 3. Specify Meshes  
    Specify the skin mesh and clothing meshes respectively.  
