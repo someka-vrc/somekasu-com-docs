@@ -8,17 +8,17 @@ sidebar:
 ## [1.0.0] - 2026-02-07
 
 ### Added
-- NDMF compatible non-destructive component (pro)
+- NDMF-compatible, non-destructive component (Pro)
 
 ### Changed
 - GPU processing acceleration
 - Ignore EditorOnly meshes
 - MeshRenderer support
-- Manual converted to documentation site
+- User manual migrated to the documentation site
 
 ### Fixed
 - Fixed possible error on initial startup
-- Fixed input material properties not being reflected in output material even though used in calculation
+- Fixed an issue where input material properties were not applied to the output material.
 - Fixed possible malfunction with meshes where scale is not 1
 - Other bug fixes
 

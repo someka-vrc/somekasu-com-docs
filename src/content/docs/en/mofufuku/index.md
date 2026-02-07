@@ -15,9 +15,9 @@ Suitable for those who have a base body fur shader material but the hair collide
 
 ## Notes
 
-* Supports only lilToon shaders. There is a possibility of use by using compatible shaders or applying generated textures to non-lilToon, but the developer cannot support it.  
+* Supports only lilToon shaders. It might work with compatible shaders or if you apply the generated textures to non-lilToon shaders, but this is not supported by the developer.  
 * Requires normal maps/length masks for the base body's fur shader. Mofufuku adjusts these textures but does not generate them from scratch. For that purpose, "FurTools" by マロンの小屋 is recommended.  
-* Please perform final texture adjustments yourself. Mofufuku processes automatically but cannot match handmade assets.
+* Mofufuku automates processing but may not match hand-crafted assets; please perform final adjustments manually.
 
 ## Installation
 

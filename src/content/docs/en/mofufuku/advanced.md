@@ -5,12 +5,12 @@ sidebar:
   order: 3
 ---
 
-This section explains how to fine-tune Mofufuku's operation. If collision is noticeable without adjustments, refer to the explanations below.
+This section explains how to fine-tune Mofufuku's behavior. If collisions are noticeable without adjustments, see below.
 
 ### Debug Mode
 
 First, as preparation, visualize how each point on the mesh was processed.  
-Turn on "Debug Mode" and run.  
+Enable "Debug Mode" and run to visualize how each point on the mesh is processed.  
 ![](../../mofufuku/images/advanced-1.png)  
 Click on the mesh in the scene to display the processing result at that point.  
 ![](../../mofufuku/images/advanced-2.png)
@@ -26,14 +26,13 @@ Click on the mesh in the scene to display the processing result at that point.
 You can control Mofufuku's behavior with the following parameters.  
 ![](../../mofufuku/images/advanced-3.png)
 
-Operation: Calculates the positional relationship between hair and polygons, and avoids collisions in the order of bounce up → lay down → shorten length.  
-  (Bounce up includes probability selection)
+Operation: Calculates the positional relationship between hair and polygons, and resolves collisions in this order: Tilt Up → Lay Down → Shorten Length. (Tilt Up is probabilistic.)
 
-* If you just want to avoid collision, set horizontal margin to 0.5, and alternately increase front and back margins by 0.5 each.  
-* If hair rising is too intense, reduce max bounce up angle.  
-* If you want it to lay down but it shortens, reduce back margin.  
-* If hair disappears near clothing edges, some margin is too large or lay down/bounce up angles are too small. Check hit status by clicking that location in debug mode.  
-* If it doesn't penetrate in editor but does when moving body, increase length margin.
+* If you only want to avoid collisions, set Horizontal Margin to 0.5, then increase Front Margin and Back Margin by 0.5 each.  
+* If hair rising is too intense, reduce Max Tilt Up Angle.  
+* If you want it to lay down but it shortens, reduce Back Margin.  
+* If hair disappears near clothing edges, some margin is too large or lay down/Tilt Up angles are too small. Check hit status by clicking that location in Debug Mode.  
+* If it doesn't penetrate in the editor but does when moving the body, increase Length Margin.
 
 | Item | Description |
 | :---- | :---- |
