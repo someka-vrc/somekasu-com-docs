@@ -5,6 +5,11 @@ sidebar:
   order: 99
 ---
 
+## [1.0.1] - 2026-02-18
+
+### Fixed
+- Fixed an error that occurred during avatar upload in the Pro version.
+
 ## [1.0.0] - 2026-02-07
 
 ### Added
